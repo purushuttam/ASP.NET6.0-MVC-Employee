@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Employee>
+
+@{
+    ViewBag.Title = "Employee Filter List";
+}
+<div>
+     <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <form asp-action="Filter" asp-controller="Home" method="get" class="form-inline my-2 my-lg-0">
+                <table>
+                    <tr class="navbar-nav mr-auto">
+                        <td class="nav-item">
+                        @Html.RadioButton("searchBy","FirstName", true, new { @class = " mr-sm-2" }) <text>Name</text> &nbsp;&nbsp;<br />
+                        </td>
+                    <td class="nav-item">
+                        @Html.RadioButton("searchBy","Gender" , new { @class = " mr-sm-2" }) <text>Gender</text>&nbsp;&nbsp;<br />
+                        </td>
+                        <td class="nav-item">
+                        @Html.RadioButton("searchBy","Id", new { @class = " mr-sm-2" }) <text>Employee Id</text>&nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                     @Html.TextBox("search", null, new { @class = "form-control mr-sm-2" })
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </div>
+         </form>
+     </div>
+</div>
+
+<div class="card-deck">
+    @foreach (var employee in Model)
+    {
+        var photopath = "~/images/" + (employee.PhotoPath ?? "avatar1.png");
+        <div class="card m-3" style="min-width:18rem ; max-width:30.5%">
+            <div class="card-header">
+                <h3>@employee.FirstName.ToUpper()</h3>
+                <h3>@employee.LastName.ToUpper()</h3>
+            </div>
+            <img class="card-img-top imageThumnail" src="@photopath" style="width: 195px;" asp-append-version="true" />
+            <div class="card-footer text-center">
+                <a asp-controller="home" asp-action="Details" asp-route-id="@employee.Id" class="p-4 m-1" style="color:black ;font-size: xx-large;">
+                    <i class="fa-solid fa-eye"></i>
+                </a>
+                <a asp-action="Edit" asp-controller="home" asp-route-id="@employee.Id" class="p-4 m-1" style="color:black;font-size: xx-large ;">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </a>
+                <a asp-action="Delete" asp-controller="home" asp-route-id="@employee.Id" class="p-4 m-1" style="color:black ;font-size: xx-large;" onclick="return confirm('Are your sure you want to delete the Employee : @employee.FirstName')">
+                    <i class="fa-solid fa-trash"></i>
+                </a>
+            </div>
+        </div>
+    }
+</div>

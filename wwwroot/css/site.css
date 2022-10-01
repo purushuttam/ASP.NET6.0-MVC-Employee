@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+img{
+   margin:auto;
+
+}
+.btn{
+    width:80px;
+}
+/*.imageThumnail{
+    height:200px;
+    width:auto;
+}*/
+.img-thumbnail {
+    height: 280px;
+    width: auto;
+}
+.icons {
+    color: black;
+    font-size: xx-large;
+}
+.gradient-custom {
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    min-height: 600px !important;
+    padding-bottom:100px !important;
+}
+.login-page< {
+    min-height: 600px;
+    padding-bottom: 100px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.rt{
+    padding-left:290px !important;
+}

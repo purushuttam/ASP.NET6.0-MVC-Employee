@@ -1,0 +1,30 @@
+﻿@model Department;
+
+@{
+    ViewBag.Title = "Department Details";
+}
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>Department ID : @Model.DeptId</h1>
+            </div>
+            <div class="card-body">
+                <h4>Department Name : @Model.DepartmentName.ToUpper()</h4>
+                <h4>Department Manager : @Model.ManagerName.ToUpper()</h4>
+                <h4>Department Location : @Model.Location.ToUpper()</h4>
+            </div>
+            <div class="card-footer text-center">
+                <a asp-controller="home" asp-action="Dindex" class="p-4">
+                    <i class="fa-solid fa-backward icons"></i>
+                </a>
+                <a asp-action="DEdit" asp-controller="home" asp-route-id="@Model.DeptId" class="p-4">
+                    <i class="fa-solid fa-pen-to-square icons"></i>
+                </a>
+                <a asp-action="Ddelete" asp-controller="home" asp-route-id="@Model.DeptId" class="p-4" onclick="return confirm('Are your sure you want to delete the Department : @Model.DepartmentName')">
+                    <i class="fa-solid fa-trash icons"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>  

@@ -1,0 +1,47 @@
+﻿@model EmpDept;
+
+@{
+    ViewBag.Title = "Employee Details";
+    var photopath = "~/images/" + (Model.PhotoPath ?? "avatar1.png");
+}
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@Model.FirstName</h1>
+                <h1>@Model.LastName.ToUpper()</h1>
+            </div>
+            <div class="card-body text-center">
+                <img class="card-img-top" src="@photopath" style="width: 195px;" asp-append-version="true" />
+                <h4>Employee Id : @Model.Id</h4>
+                <h4>Employee Email : @Model.Email</h4>
+                <h4>Employee Gender : @Model.Gender</h4>
+                <h4>Employee DOB : @Model.DOB.ToShortDateString()</h4>
+                <h4>Employee JD : @Model.JD.ToShortDateString()</h4>
+                <h4>Employee Department : @Model.DepartmentName</h4>
+                <h4>Technologies : 
+                    @if(Model.Java){
+                        <span>Java  </span>
+                    }
+                    @if(Model.Cpp){
+                        <span>C++  </span>
+                    }
+                    @if(Model.CSharp){
+                        <span>C Sharp</span>
+                    }
+                </h4>
+            </div>
+            <div class="card-footer text-center">
+                <a asp-controller="home" asp-action="index" class="p-4">
+                    <i  class="fa-solid fa-backward icons"></i>
+                </a>
+                <a asp-action="Edit" asp-controller="home" asp-route-id="@Model.Id" class="p-4">
+                    <i class="fa-solid fa-pen-to-square icons"></i>
+                </a>
+                <a asp-action="delete" asp-controller="home" asp-route-id="@Model.Id" class="p-4"  onclick="return confirm('Are your sure you want to delete the Employee : @Model.FirstName')">
+                    <i class="fa-solid fa-trash icons"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>  

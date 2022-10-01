@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Department>
+@{
+    ViewBag.title = "Department Page";
+}
+
+<div>
+    <div class="form-group row">
+
+
+        <div class="col-sm-10 mt-4">
+            <a asp-action="DCreate" aasp-controller="home" class="btn-lg btn-primary">Create new Department</a>
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <caption>No. Of Departments : @Model.Count()</caption>
+    <thead>
+        <tr>
+            <th scope="col">Department Id</th>
+            <th scope="col">Department Name</th>
+            <th scope="col">Department Manager</th>
+            <th scope="col">Location</th>
+            <th scope="col" class="text-center">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in Model)
+        {
+            <tr>
+                <th scope="row">@department.DeptId</th>
+                <td>@department.DepartmentName</td>
+                <td>@department.ManagerName</td>
+                <td>@department.Location</td>
+                <td>
+                    <div class=" text-center">
+                        <a asp-controller="home" asp-action="Ddetails" asp-route-id="@department.DeptId" class="p-4 m-1" style="color:black ;font-size: xx-large;">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                        <a asp-controller="home" asp-action="DEdit" asp-route-id="@department.DeptId" class="p-4 m-1" style="color:black;font-size: xx-large ;">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                        <a asp-controller="home" asp-action="DDelete" asp-route-id="@department.DeptId" class="p-4 m-1" style="color:black ;font-size: xx-large;" onclick="return confirm('Are you sure you want to delete department :@department.DepartmentName')" >
+                             <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

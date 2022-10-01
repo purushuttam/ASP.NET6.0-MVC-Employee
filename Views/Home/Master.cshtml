@@ -1,0 +1,70 @@
+﻿@model IEnumerable<EmpDept>
+
+@{
+    Layout = "_Layout2";
+    ViewBag.Title = "Employee Department List";
+}
+
+<table class="table">
+    <caption>Total Employee : @Model.Count()</caption>
+    <thead>
+        <tr>
+            <th scope="col">Employee Id</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Gender</th>
+            <th scope="col">DOB </th>
+            <th scope="col">JD </th>
+            <th scope="col">Email</th>
+            <th scope="col">Java</th>
+            <th scope="col">Cpp</th>
+            <th scope="col">CSharp</th>
+            <th scope="col">Photo</th>
+            <th scope="col">Dept Id</th>
+            <th scope="col">Department Name</th>
+            <th scope="col">Manager Name</th>
+            <th scope="col">Location</th>
+            @* <th scope="col" class="text-center">Action</th>*@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in Model)
+        {
+            <tr>
+                <td scope="row">@department.Id</td>
+                <td>@department.FirstName.ToUpper()</td>
+                <td>@department.LastName.ToUpper()</td>
+                <td>@department.Gender</td>
+                <td>@department.DOB.ToShortDateString()</td>
+                <td>@department.JD.ToShortDateString()</td>
+                <td>@department.Email</td>
+                <td>@department.Java</td>
+                <td>@department.Cpp</td>
+                <td>@department.CSharp</td>
+                @*<th>@department.PhotoPath</th>*@
+                <td>
+                    <img src="~/images/@department.PhotoPath" style="width:40px" asp-append-version="true">
+                </td>
+
+                <th>@department.DeptId</th>
+                <td>@department.DepartmentName</td>
+                <td>@department.ManagerName</td>
+                <td>@department.Location</td>
+                @*<td>
+            <div class=" text-center">
+            <a asp-controller="home" asp-action="DDetails" asp-route-id="@department.DeptId" class="p-4 m-1" style="color:black ;font-size: xx-large;">
+            <i class="fa-solid fa-eye"></i>
+            </a>
+            <a asp-action="DEdit" asp-controller="home" asp-route-id="@department.DeptId" class="p-4 m-1" style="color:black;font-size: xx-large ;">
+            <i class="fa-solid fa-pen-to-square"></i>
+            </a>
+            <a asp-action="DDelete" asp-controller="home" asp-route-id="@department.DeptId" class="p-4 m-1" style="color:black ;font-size: xx-large;" onclick="return confirm('Are your sure you want to delete the Employee : @department.DepartmentName')">
+            <i class="fa-solid fa-trash"></i>
+            </a>
+            </div>
+            </td>*@
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

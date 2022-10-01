@@ -1,0 +1,15 @@
+﻿@model Demo.Models.DepartmentModel;
+@{
+    ViewData["Title"] = "Drop Page";
+}
+@using (Html.BeginForm("drop","home",FormMethod.Post))
+{
+    <div class="text-center">
+        @Html.DropDownListFor(m=>m.DeptId,new SelectList(Model.DepartmentList,"Value","Text"),new{@class = "form-control"})
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+        <b>Value:</b>@ViewBag.Value
+        <b>Text:</b>@ViewBag.text
+    </div>
+}

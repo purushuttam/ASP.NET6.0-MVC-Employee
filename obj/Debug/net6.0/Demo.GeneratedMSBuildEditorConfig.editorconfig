@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Demo
+build_property.RootNamespace = Demo
+build_property.ProjectDir = C:\Users\purus\OneDrive\Desktop\Purushuttam Inohybrid\Employee API Anguler\Employee API\Employee API\ASP.NET6.0-MVC-Employee\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\purus\OneDrive\Desktop\Purushuttam Inohybrid\Employee API Anguler\Employee API\Employee API\ASP.NET6.0-MVC-Employee
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/DCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/DDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxERGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/DEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxERWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/DIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxESW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/drop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkcm9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/EmployeeNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZU5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWx0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/Master.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Home/WrongCredentials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXcm9uZ0NyZWRlbnRpYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/purus/OneDrive/Desktop/Purushuttam Inohybrid/Employee API Anguler/Employee API/Employee API/ASP.NET6.0-MVC-Employee/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
