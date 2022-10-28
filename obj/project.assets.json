@@ -10674,11 +10674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\purus\\OneDrive\\Desktop\\Purushuttam Inohybrid\\Employee API Anguler\\Employee API\\Employee API\\ASP.NET6.0-MVC-Employee\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\purus\\OneDrive\\Desktop\\Purushuttam Inohybrid\\GIT\\Employee API\\github\\ASP.NET6.0-MVC-Employee\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "C:\\Users\\purus\\OneDrive\\Desktop\\Purushuttam Inohybrid\\Employee API Anguler\\Employee API\\Employee API\\ASP.NET6.0-MVC-Employee\\Demo.csproj",
+      "projectPath": "C:\\Users\\purus\\OneDrive\\Desktop\\Purushuttam Inohybrid\\GIT\\Employee API\\github\\ASP.NET6.0-MVC-Employee\\Demo.csproj",
       "packagesPath": "C:\\Users\\purus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\purus\\OneDrive\\Desktop\\Purushuttam Inohybrid\\Employee API Anguler\\Employee API\\Employee API\\ASP.NET6.0-MVC-Employee\\obj\\",
+      "outputPath": "C:\\Users\\purus\\OneDrive\\Desktop\\Purushuttam Inohybrid\\GIT\\Employee API\\github\\ASP.NET6.0-MVC-Employee\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\purus\\AppData\\Roaming\\NuGet\\NuGet.Config",
